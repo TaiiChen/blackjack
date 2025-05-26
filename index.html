@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack 遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blackjack 遊戲</h1>
+    </header>
+    <main>
+        <section id="game-info">
+            <div id="player-balance">玩家餘額: $1000</div>
+            <div id="game-status">當前下注: $0</div>
+        </section>
+        <section id="game-area">
+            <div id="player-area">
+                <h2>玩家</h2>
+                <div id="player-cards">玩家的牌: </div>
+            </div>
+            <div id="dealer-area">
+                <h2>莊家</h2>
+                <div id="dealer-cards">莊家的牌: </div>
+            </div>
+        </section>
+        <section id="controls">
+            <div id="bet-controls">
+                <button id="bet-10">下注 $10</button>
+                <button id="bet-50">下注 $50</button>
+                <button id="bet-100">下注 $100</button>
+            </div>
+            <div id="game-controls">
+                <button id="start-game">開始遊戲</button>
+                <button id="hit">要牌</button>
+                <button id="stand">停牌</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

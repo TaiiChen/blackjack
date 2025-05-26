@@ -1,0 +1,67 @@
+body { /* 設定整體網頁的樣式 */
+    font-family: Arial, sans-serif; /* 使用 Arial 字體 */
+    text-align: center; /* 文字置中 */
+    background-color: #2e8b57; /* 設定背景顏色為綠色 */
+    color: white; /* 設定文字顏色為白色 */
+    margin: 0; /* 移除預設外邊距 */
+    padding: 0; /* 移除預設內邊距 */
+}
+
+header {
+    background-color: #006400;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#game-info {
+    margin-bottom: 20px;
+}
+
+#game-area {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#player-area, #dealer-area {
+    border: 2px solid white;
+    padding: 10px;
+    width: 40%;
+    background-color: #3cb371;
+    border-radius: 10px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button { /* 設定按鈕的樣式 */
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover { /* 設定按鈕在滑鼠懸停時的樣式 */
+    background-color: #228b22;
+}
+
+#player-balance { /* 設定玩家餘額顯示區域的樣式 */
+    position: absolute; /* 設定位置為絕對定位 */
+    top: 10px; /* 距離頂部 10px */
+    left: 10px; /* 距離左側 10px */
+    font-size: 18px; /* 設定字體大小為 18px */
+    font-weight: bold; /* 設定字體加粗 */
+    color: white; /* 設定文字顏色為白色 */
+}
