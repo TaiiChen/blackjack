@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack 遊戲</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #000;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Blackjack 遊戲</h1>
+        <h1 style="color: white;">Blackjack 遊戲</h1>
     </header>
     <main>
-        <section id="game-info">
+        <section id="game-info" style="color: white;">
             <div id="player-balance">玩家餘額: $1000</div>
             <div id="game-status">當前下注: $0</div>
         </section>
-        <section id="game-area">
+        <section id="game-area" style="color: white;">
             <div id="player-area">
                 <h2>玩家</h2>
                 <div id="player-cards">玩家的牌: </div>
@@ -38,6 +47,7 @@
             </div>
         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
